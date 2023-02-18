@@ -1,0 +1,11 @@
+
+.macetas {     
+    display: flex;
+    width: 100%;
+}
+.container{
+    display: grid;
+    gap: 0;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%,500px), 1fr))
+
+}

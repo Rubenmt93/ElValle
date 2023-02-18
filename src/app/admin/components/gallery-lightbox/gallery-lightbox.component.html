@@ -1,0 +1,76 @@
+<div class="gallery-lightbox-container">
+  
+    <div  class="gallery">
+        <div *ngFor="let item of galleryData; let i = index" class="gallery-img">
+            <img (click)="onPreviewImage(i)" [src]="item.img" [alt]="item.description">
+
+            <button mat-button
+                    color="warn"
+                    (click)="eliminarImagen(item.eventId)">
+                Eliminar
+            </button>
+        </div>
+    </div>
+    <div *ngIf="showMask" class="lightbox">
+        <div>
+            <div class="spanAndClose">
+                <span  class="count">{{this.currentIndex +1}}/{{totalImageCount}}</span>       
+                <mat-icon class="closeIcon" (click)="closeImage()" >close</mat-icon>
+                
+            </div>
+            <div class="imageViewContainer" style="display: flex; flex-direction: row;">
+                
+                <div class="moveIconContainer">
+                    <mat-icon class="moveIcon pre" (click)="prevImage()" > navigate_before</mat-icon>
+                </div>
+        
+                
+                
+                <div *ngIf="previewImage" class="lightbox-img">
+                    <img  class="imageLightbox" [src]="currentLightboxImage.img" [alt]="currentLightboxImage.description">
+                </div>
+                <div class="moveIconContainer">
+                    <mat-icon class="moveIcon" (click)="nextImage()" > navigate_next</mat-icon>
+                </div>
+                
+                    
+               
+            </div>
+            <div class="Imageinfo">
+                    
+                <form   [formGroup]="ImageForm"
+                        (ngSubmit)=" updateDescription()">   
+                    <div class="formGrid">        
+                
+                   
+                        <mat-form-field class="example-full-width">
+                            <mat-label> 
+                                <mat-icon matPrefix> text_format </mat-icon> 
+                                Descripción
+                            </mat-label>
+                            <input  type="text" 
+                                    formControlName=texto
+                                    autocomplete="on"            
+                                    matInput>       
+                        </mat-form-field>                   
+    
+                    </div>
+           
+                    <button mat-raised-button 
+                            type="submit"
+                            color="primary">
+                        Cambiar
+                    </button>               
+                   
+            </form>       
+               
+                
+            </div>
+        </div>
+        
+
+
+
+    </div>
+</div>
+    

@@ -1,0 +1,74 @@
+.comment_container{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+  } 
+  .comment_header{
+    display:flex;
+    flex-direction: row;  
+    justify-content: center;
+    background-color: #3f51b5;
+    padding: 7px;  
+    margin:auto;
+    border-radius: 10px 10px 0 0;
+  }
+  .comment_header_userInfo{
+    display:flex;
+    flex-direction: row;  
+    margin-left: 10px;
+  }
+  
+  .comment_header h1{
+    color: rgb(255, 255, 255);
+    margin:5px;
+  }
+  
+  .comment_msg{
+    
+    padding: 2px;  
+    background-color: white;
+  }
+  .comment_msg span{
+    margin-left:20px;
+  }
+  
+  .comment_footer{
+    background-color: #3f51b5;
+    display: flex;
+    flex-direction: row;
+    justify-content:end;  
+    border-radius:0 0 10px 10px ;
+    padding: 0px;
+  }
+  .respuestasDiv{
+    color: white;
+    display: flex;    
+  }  
+  .textArea{
+    width: 100%;
+  }
+  .textAreaPlaceholder{
+    color:rgb(33, 33, 33);
+  }  
+    
+  button{
+    
+    margin: 5px;
+    background-color: #58f12a!important;
+}
+::ng-deep .mat-focused .mat-label .mat-form-field-label {
+    color: #1a1a1a !important;
+}
+::ng-deep.mat-form-field-underline {
+  background-color: #1a1a1a !important;
+}   
+::ng-deep.mat-form-field-ripple {   
+   background-color:#538ad2 !important;;
+}
+mat-label{
+    color: black;
+}
+.mat-raised-button.mat-button-disabled {
+    color: #cac9c9 !important;
+    background-color:#538ad2 !important;  
+}  

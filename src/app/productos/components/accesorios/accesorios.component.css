@@ -1,0 +1,48 @@
+section{
+    background-color: rgb(192, 174, 12);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    height: 100%;
+}
+.tittlecontainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.img{
+    width: 100%;
+    height: 200px;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/centrobonsaielvalle-cff2a.appspot.com/o/FotosFijas%2Fproductos-alambres.jpg?alt=media&token=");
+    background-repeat: no-repeat;
+    -moz-background-size: 100% 100%; /*Firefox 3.6*/
+    -o-background-size: 100% 100%; /*opera*/
+    -webkit-background-size: 100% 100%; /*Safari*/
+    background-size: 100% 100%; /*estandar css3*/
+
+}
+h1{
+    text-align: center;    
+    font-size: 50px; 
+    margin-top:10px;
+    margin-bottom: 50px;
+    
+ }
+ p{
+    color: white;
+    font-size: 20px;
+ }
+ @media (max-width:900px){
+    h1{
+        text-align: center;    
+        font-size: 40px; 
+        margin-top:10px;
+        
+    }
+}
+@media (max-width:550px){
+    h1{           
+        font-size: 30px;             
+    }
+}

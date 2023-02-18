@@ -1,0 +1,119 @@
+.box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+    
+.horario {
+    grid-area: 2 / 1 / 3 / 2;; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:2%;
+}
+.contacto { 
+    grid-area: 2 / 2 / 3 / 3; 
+    display: flex;
+    flex-direction: column;
+    
+    margin:2%;
+}
+h1{
+    margin: auto;
+    font-size: 60px;
+}
+td{
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
+tr{
+    display: flex;
+    justify-content:space-between;
+}
+
+.iconaling{
+    display: flex;
+    justify-content: center;
+    text-align:start;
+}
+.box{
+    display: flex;
+    
+}
+    
+.horarioTittle { 
+    
+    margin: auto;
+    padding-top:10px ;
+}
+.contactoTittle {
+   
+    margin: auto;
+    padding-top:10px ;
+}
+table{
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+mat-icon,td{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.contactoBox{
+    background-color: rgb(194, 163, 39);
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.horarioBox{
+    background-color: rgb(81, 116, 156);
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+@media (max-width: 750px){
+
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+    .horarioBox, .contactoBox{
+        width: 100%;
+    }
+    h1{
+        margin: auto;
+        font-size: 30px;
+    }
+    .contacto tr{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+    }
+    table{
+        margin-bottom: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+@media (max-width: 1000px){
+    table{
+        margin-bottom: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    h1{
+        margin: auto;
+        font-size: 30px;
+    }
+}

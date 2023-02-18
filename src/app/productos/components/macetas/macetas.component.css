@@ -1,0 +1,96 @@
+ 
+ .maincontainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;    
+    background-color: rgb(29, 169, 87);
+}
+ .info-fotoFullWidth { 
+    grid-area: 1 / 1 / 2 / 2;     
+    display: inline-block;
+    height: 100%;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/centrobonsaielvalle-cff2a.appspot.com/o/FotosFijas%2Fproductos-macetas.jpg?alt=media&token=");
+    background-repeat: no-repeat;
+    -moz-background-size: 100% 100%; /*Firefox 3.6*/
+    -o-background-size: 100% 100%; /*opera*/
+    -webkit-background-size: 100% 100%; /*Safari*/
+    background-size: 100% 100%; /*estandar css3*/
+}
+.info-fotoSmallWidth{
+    display: none;   
+    display: inline-block;
+    height: 100%;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/centrobonsaielvalle-cff2a.appspot.com/o/FotosFijas%2Fproductos-macetas.jpg?alt=media&token=");
+    background-repeat: no-repeat;
+    -moz-background-size: 100% 100%; /*Firefox 3.6*/
+    -o-background-size: 100% 100%; /*opera*/
+    -webkit-background-size: 100% 100%; /*Safari*/
+    background-size: 100% 100%; /*estandar css3*/
+}
+.box{    
+    grid-area: 1 / 2 / 2 / 4;
+}
+ .tittlecontainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom:30px ;
+}
+h1{
+    text-align: center;    
+    font-size: 60px; 
+    margin-top:20px;
+    
+} 
+.info-grid { 
+    grid-area: 1 / 1 / 2 / 3; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+    
+}
+p{
+    font-size: 150%;
+    color: white;
+    margin-bottom: 50px;
+}
+img{    
+    width:100%;    
+}
+
+@media (max-width:900px){
+    .maincontainer{
+        display: flex;
+        flex-direction: column;    
+        background-color: rgb(29, 169, 87);
+    }
+   
+    .info-fotoSmallWidth{    
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+        height: 200px;
+    }   
+    .info-fotoFullwith{
+        display: none;
+    }
+    h1{
+        text-align: center;    
+        font-size: 40px;             
+    }
+    .tittlecontainer{        
+        margin-bottom:15px ;
+    }
+}
+@media (max-width:550px){
+    h1{           
+        font-size: 40px;             
+    }
+}
+@media (max-width:550px){
+    h1{           
+        font-size: 30px;             
+    }
+}

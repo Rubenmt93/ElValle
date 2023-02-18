@@ -1,0 +1,88 @@
+.exterior{
+    width: 100%; 
+    margin: auto; 
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+
+carousel{ 
+ margin: auto;   
+}
+.carrousel-container{
+   background-color: rgb(53, 116, 80); 
+   display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.infoCarrousel{
+    width: 100%;
+}
+.imgInteriorfullwith{
+    grid-area: 1 / 3 / 2 / 4; ;     
+    display: inline-block;
+    height: 100%;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/centrobonsaielvalle-cff2a.appspot.com/o/FotosFijas%2Fservicios-escuela.jpg?alt=media&token=");
+    background-repeat: no-repeat;
+    -moz-background-size: 100% 100%; /*Firefox 3.6*/
+    -o-background-size: 100% 100%; /*opera*/
+    -webkit-background-size: 100% 100%; /*Safari*/
+    background-size: 100% 100%; /*estandar css3*/
+}
+.imgInteriorSmallWith{
+    display: none;
+    width: 80%;
+    margin: auto;
+    height: 200px;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/centrobonsaielvalle-cff2a.appspot.com/o/FotosFijas%2Fservicios-escuela.jpg?alt=media&token=");
+    background-repeat: no-repeat;
+    -moz-background-size: 100% 100%; /*Firefox 3.6*/
+    -o-background-size: 100% 100%; /*opera*/
+    -webkit-background-size: 100% 100%; /*Safari*/
+    background-size: 100% 100%; /*estandar css3*/
+    margin-bottom: 10px;
+}
+.interiorInfo{
+    grid-area:  1 / 1 / 2 / 3;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+h1{
+    margin: auto;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+p{
+    width: 100%;
+    margin: auto;
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: white;
+    line-height: 25px;
+}
+
+@media (max-width:900px){
+    .carrousel-container{
+        background-color: rgb(53, 116, 80); 
+        display: flex;
+        flex-direction: column;
+        
+     }
+    h1{
+        text-align: center;    
+        font-size: 30px; 
+        margin-top:10px;
+        
+    }
+    .imgInteriorSmallWith{
+        display: flex;
+    }   
+    .imgInteriorfullwith{
+        display: none;
+    }
+    
+}

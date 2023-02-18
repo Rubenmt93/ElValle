@@ -1,0 +1,28 @@
+<div >
+    <div class="comment_container">
+        <div class="comment_header">          
+           <h1>Nuevo aviso</h1>
+        </div>
+        <div class="comment_msg">
+            <form   [formGroup]="avisosForm">             
+                <mat-form-field class="textArea"
+                                appearance="fill">
+                    <mat-label class="textAreaPlaceholder">Introduce nuevo aviso</mat-label>
+                    <textarea matInput
+                            formControlName='mensaje'>
+                    </textarea>
+                </mat-form-field>
+            </form>
+        </div>
+        <div class="comment_footer">
+            <button mat-raised-button 
+            color="primary"
+            [disabled]="avisosForm.invalid"
+            (click)="sendComment()">
+                Publicar
+            </button>
+        </div>          
+    <div>                
+</div>
+    
+    

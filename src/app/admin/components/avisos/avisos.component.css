@@ -1,0 +1,8 @@
+section{
+    background-color: rgb(5, 122, 83);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 100px;
+}

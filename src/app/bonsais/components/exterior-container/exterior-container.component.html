@@ -1,0 +1,39 @@
+
+
+
+<div class="exterior">
+   
+
+ 
+        <div class="carrousel-container">
+
+            <div class="imgInterior">
+                
+            </div>
+            <div class="interiorInfo">
+                
+                <h1 class="hover-underline-animation " >{{'Bonsais de Exterior' | translate}}</h1>
+                <div class="infoCarrousel"></div>
+                <p>{{'Bonsais de Exterior Texto1' | translate}}</p>
+                <p>{{'Bonsais de Exterior Texto2' | translate}}</p>
+                <p>{{'Bonsais de Exterior Texto3' | translate}}</p>
+                <carousel class="carousel" [cellWidth]=300 >
+                    <div *ngFor="let item of images; let i = index" class="carousel-cell">
+                        <img [src]= item.img [title]="item.texto">
+                       
+                    </div>
+                </carousel>
+            
+               
+                
+            </div>
+            
+        </div>
+       
+        
+</div>
+       
+
+    
+    
+

@@ -1,0 +1,104 @@
+.carrouselContainer{
+    width: 40%;     
+    display: flex;
+    align-items: center;
+}
+.aboutUs-Vivero-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    padding: 40px;
+}
+.infoContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+section{
+    width: 100%;
+    background-color: rgb(41, 168, 70);
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    
+}
+h1{
+    font-size: 60px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+p{
+    color: white;
+    font-size: 180%;
+    line-height: 30px;
+}
+.carousel{
+    height: 300px !important;
+    margin-left: 10px;
+}
+
+@media (max-width:800px){
+    section{
+        
+        display: flex;
+        flex-direction:column-reverse;
+      
+        
+    }
+    h1{
+        margin: auto;
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        line-height: 30px;
+    }
+    p{
+        width: 100%;
+        margin: auto;
+        font-size: 120%;
+        margin-bottom: 10px;
+        color: white;
+        line-height: 30px;
+        
+    }
+    .carrouselContainer{
+        width: 100%; 
+        
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width:800px){
+    section{
+        
+        display: flex;
+        flex-direction:column-reverse;
+      
+        
+    }
+    h1{
+        margin: auto;
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        line-height: 30px;
+    }
+    p{
+        width: 100%;
+        margin: auto;
+        font-size: 120%;
+        margin-bottom: 10px;
+        color: white;
+        line-height: 30px;
+        
+    }
+    .carrouselContainer{
+        width: 80%; 
+        margin: auto;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+    }
+}

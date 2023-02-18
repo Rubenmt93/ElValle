@@ -1,0 +1,9 @@
+<div *ngFor="let item of avisos">
+   
+    <app-avisocontainer [aviso]="item"></app-avisocontainer>
+</div>
+
+<div    class="noAvisos"
+        *ngIf="avisos.length === 0">
+   <p> No hay avisos activos</p>
+</div>

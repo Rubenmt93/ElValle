@@ -1,0 +1,125 @@
+{
+    "Inicio":"Home",
+    "Bonsais":"Bonsais",
+    "Productos":"Products",
+    "Servicios":"Services",
+
+    "Inicio1":"Bonsai Center",
+    "Inicio2":"Everything for the care of bonsai",
+    "¿Quienes somos?":"About us",
+    "¿Quienes somos?Texto1":"El Valle nursery and bonsai center was founded in 1990 as a business exclusively dedicated to the art of bonsai in all its forms",
+    "¿Quienes somos?Texto2":"El Valle nursery and bonsai center is the first company in the Canary Islands dedicated to bonsai. Our experience, the quality of our products and the seriousness in ourwork have earned us the recognition of amateurs and professionals in the field.",        
+    "¿Donde estamos?":"Location",
+    "¿Donde estamos?Texto1":"A few minutes from the town of Teror",
+    "¿Donde estamos?Texto2":"El Valle nursery and bonsai center is located on the GC-21 road, p.k. 15+780 (in the right bank),  which joins the municipalities of Teror and Valleseco.",
+    "¿Donde estamos?Texto3":"In the place known as Vuelta de Los Naranjos. Located exactly in front of the royal road Cuesta de los Estanques.",
+    "Horario":"Opening times",
+    "Jueves":"Thursday",
+    "Viernes":"Friday",
+    "Sabado":"Saturday", 
+    "Contactanos":"Contact",   
+    "Telefono":"Phone number",
+    "mail":"Email",
+    
+    "Bonsais de Exterior":"Outdoor Bonsai",
+    "Bonsais de Exterior Texto1":"We call outdoor bonsai those trees that, due to their light and temperature needs, cannot be grown indoors. Even so, light must be controlled with a shading mesh to prevent excess sun from harming their health. Most of the flower and fruit bonsai need to be outdoors in order to carry out their reproductive function (flower and fruit).",
+    "Bonsais de Exterior Texto2":"Most of the flower and fruit bonsai need to be outdoors in order to carry out their reproductive function (flower and fruit).",
+    "Bonsais de Exterior Texto3":"Outdoor bonsai can be from a cold or temperate zone",
+    "Bonsais de Interior":"Indoor Bonsai",
+    "Bonsais de Interior Texto":"All the trees, as can be supposed, are outdoors. However, we call indoor Bonsai those that allow their cultivation with lower light requirements and a higher temperature than what it would receive outdoors. Even so, it is convenient that the indoor trees are not more than approximately 50 centimeters from the light of a window with transparent glass.",
+    
+    "Macetas":"Pots",   
+    "MacetasTexto":"The bonsai pot must harmonize with the tree it will contain. A good pot is capable of highlighting an average tree or ruining the image of a tree with perfect features. In our center you can find a wide variety of pots where you can plant your bonsai:",
+    "Tokoname":"Training pots from tokoname",
+    "Macetas chinas de Yixing esmaltadas":"Chinese glazed pots from Yixing",
+    "Macetas chinas de Yixing sin esmaltar":"Chinese unglazed pots from Yixing",
+    "Macetas japonesas de Seto":"Japanese pots from Seto",
+    "Macetas japonesas Houtoku pots":"Japanese Houtoku pots",
+    "Macetas japonesas Yokkaichi":"Japanese Yokkaichi pots",
+    "Macetas japonesas de porcelana esmaltada":"Japanese glazed porcelain pots", 
+
+    "Herramientas":"Tools",
+    "HerramientasTexto":"The care of our bonsai requires the application of techniques for which, after thousands of years of tradition, specific tools have been built that, due to their cutting or holding capacity, are almost essential.",
+    "HerramientaOferta":"In our center you can find:",
+    "Tijeras de aros grandes":"Root Shears",
+    "Tijeras pinzadoras":"Pruning Shears",
+    "Podadora cóncava recta (Kuikiri)":"Straight concave cutters (Kuikiri)",
+    "Podadora cóncava curva (Cobukiri)":"Concave knob cutters (Cobukiri)",
+    "Podadora recta de corte curvo":"Concave 'spheric' cutters",   
+    "Pinzas":"Tweezer",
+    "Corta alambres":"Wire Cutter",
+
+    "Accesorios":"Accesories",
+    "AccesoriosTexto":"In addition to the tools, we have accessories specially designed for bonsai care that will allow you to enjoy your trees doing your own work.",
+    "AccesorioOferta":"In our center you can find:",
+    "Alambres":"Aluminum wires from 0,8mm to 6mm",
+    "Rejillas":"Repotting Mesh",
+    "Palillos":"Chopsticks and Flat Coir Brush",
+    "Tornos":"Turntable",
+    "Cedazos":"Sieves",
+    "Regaderas":"Watering can",
+    "Vaporizadores":"Vaporiser",
+
+    "Abonos":"Fertiliser",
+    "AbonosTexto1":"We have available different types of fertisers.",
+    "Abonos orgánicos sólidos:":"Solid Organic Fertilizer:",    
+    "Bio Gold":"Bio Gold",
+    "Hiryo Gold":"Hiryo Gold",
+    "Hanagokoro":"Hanagokoro",
+    "Abono orgánicos liquidos:":"Liquid Organic Fertilizer",  
+    "Bachumus":"Bachumus",
+    "Abono químico para prebonsái:":"Chemical fertilizer for prebonsai:",
+    "Arcoíris":"[ingles]Arcoiris",
+
+    "Fitosanitario":"Phytosanitary",
+    "FitosanitarioTexto":"We currently work with biological and non-toxic products. As insecticides we have the Bioleat range composed of potassium salts. We also have Ain, an ovicidal insecticide composed of an extract of azadiracta indica (neem). Chemical fungicides, such as copper, and organic fungicides such as propolis (hydroalcoholic solution of propolis, a product made by bees with fungal and bactericidal properties).",
+    "Tierras":"Soils",
+    "TierrasTexto":"We have all kind of soils fot your trees",
+    "Akadama":"The best Japanese substrates for bonsai, such as Akadama, a neutral pH substrate suitable for most Bonsai. We have it in different grain sizes and a ready-to-use mix of akadama and volcanic gravel.",
+    "Kiryuzuna":"Kiryuzuna, slightly acid ph substrate. It is used alone or mixed with akadama. Ideal for pines.",
+    "Kanuma":"Kanuma, acid ph substrate. It is used pure for azaleas or mixed with Akadama for plants that do not need so much acidity, such as camellias, ericas, etc.",
+    "Sustrato de entrenamiento":"Training substrate, soil for prebonsai. Contains volcanic gravel (5-10 mm.), clay and peat.",
+    "Vitaminas":"Vitamins",
+    "VitaminasTexto":"For the care of our trees we have Superthrive: Vitamin B+ hormones, of high quality.",
+    
+    
+    
+    "Clinica":"Clinic",
+    "ClinicaTexto":"We recover your trees to the best of our ability. We also carry out transplant operations, pruning, remodeling or any other service that your bonsai needs.",
+    "Escuela":"Courses",
+    "EscuelaTexto1":"The school is an important part of the services we provide to those who come to the center. The courses began in 1991 for seven pioneering bonsai students in the Canary Islands and, little by little, hundreds of people have learned how to treat trees in our facilities over the years.",
+    "EscuelaTexto2":"We currently hold annual courses from October to June for different levels and for two hours a week, from 6 to 8 in the afternoon. Students enjoy the possibility of sharing their experiences with other students and the teachers of the Center during classes",
+    "EscuelaTexto3":"We teach up to four levels of learning difficulty, which continue to increase year after year",
+    "EscuelaPrimero":"In the first level or initiation, we teach the students the use of the necessary tools and the basic techniques for the formation of a Bonsai, as well as the beginning of cultivation and modeling techniques, pruning of branches and roots, formation of structures, wiring, etc.",
+    "EscuelaSegundo":"In the second and third level of improvement we see advanced cultivation and modeling techniques such as grafting, modeling with tensioners, enrafiados and formation and treatment of Jin and Sharis.",
+    "EscuelaCuarto":"From the fourth level of improvement we study techniques for refining, modeling or remodeling adult bonsai, attached to dead trunks (Tanuki), presentation, etc.",
+    
+    "Asesoramiento":"Advice",
+    "AsesoramientoTexto":"We advise you on the cultivation, design or modeling of your bonsai, as well as on the existing literature on the market",
+
+    "Guarderia":"Nursery",
+    "GuarderiaTexto":"We take care of your trees while you enjoy your vacations or if they need winter rest in cold areas.",
+    
+    "Talleres":"workshops",
+    "TalleresTexto":"We offer the possibility of coming to our facilities to work your own trees under our advice. This service is available on Fridays and Saturdays from 9 a.m. to 1 p.m. upon request.",
+    
+    "Galeria":"Galery",
+    "VerMas":"Show more",
+
+    "SobreNosotros":"About Us",
+    "Elvivero":"The Center",
+    "ElviveroTexto1":"El Valle nursery and bonsai center was founded in 1990 as a business exclusively dedicated to the art of bonsai in all its forms. It was created as a center to offer various activities related to this ancient art, offering in addition to the sales service other services such as a clinic or nursery and teaching courses from the very beginning for all those interested in learning about this art.",
+    "ElviveroTexto2":"Since 2008 we have been installed in the municipality of Teror, where in a space of more than 1000 square meters you can enjoy hundreds of bonsai and prebonsai. In our center we have a classroom where we carry out our courses and where you can comfortably work on your bonsai if you join us and attend a workshop. We have a greenhouse area to ensure a warm climate that favors the recovery of the trees after performing a transplant or when the tree needs it.",
+    "ElviveroTexto3":"There are also exhibition areas for tools and accessories that will help you work with your tree and pots where you will find the right one for your bonsai. Over 30 years of experience behind us.",
+
+    "JuanMontes":"Juan Montes",
+    "JuanMontesTexto1":"Its director, Juan José Montes Hernández, has been the precursor of bonsai in the Canary Islands. Self-taught, Montes turned his knowledge into bonsai after studying at the School of Applied Arts and Artistic Trades, the School of Agricultural Technical Engineers of the University of La Laguna and the School of Technical Engineering in Topography of the University of Las Palmas",
+    "JuanMontesTexto2":"He has completed numerous training courses, highlighting his training at the Taisho-en nursery, in Shizuoka, Japan, by the oyakata Mr. Nobuichi Urushibata.",
+    "JuanMontesTexto3":"He has collaborated in the magazines Bonsái Autóctono and Bonsái Actual and has had numerous exhibitions."      
+
+
+
+
+
+
+}

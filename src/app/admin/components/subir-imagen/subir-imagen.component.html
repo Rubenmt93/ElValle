@@ -1,0 +1,52 @@
+<div class="componentcontainer">
+    <div class="container">              
+                 
+        <form   [formGroup]="ImageForm"
+                (ngSubmit)=" uploadImage()">   
+            <div class="formGrid">
+                <div class="div1">
+                    <img src="{{ this.imgURL }}" alt="ImgPlaceholder" >
+                  
+                    <button type="button" 
+                            mat-raised-button 
+                            color="primary"
+                            (click)="fileInput.click()">
+                            <mat-icon matPrefix> image </mat-icon> 
+                            Subir imagen
+                    </button>
+                    <input  hidden                             
+                            #fileInput
+                            (change)="uploadFile($event)"                             
+                            type="file" 
+                            id="file"
+                            accept="image/png, image/jpg, image/jpeg">                   
+                </div>
+                <div class="div2">
+                   
+                    <mat-form-field class="example-full-width">
+                        <mat-label> 
+                            <mat-icon matPrefix> text_format </mat-icon> 
+                            Descripción
+                        </mat-label>
+                        <input  type="text" 
+                                formControlName=texto
+                                autocomplete="on"            
+                                matInput>         
+                        
+                    </mat-form-field>
+                    
+    
+                   
+                </div>               
+            </div>
+            <div> 
+                <button mat-raised-button 
+                        type="submit"
+                        color="primary"
+                        [disabled]="ImageForm.invalid || !ImageForm.touched">
+                    Publicar foto
+                </button>               
+            </div>        
+        </form>       
+    </div>     
+</div>

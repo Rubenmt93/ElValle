@@ -1,0 +1,25 @@
+<section>
+    <div class="carrouselContainer">
+        <carousel class="carousel" cellWidth=100% [cellsToShow]=1 >
+            <div *ngFor="let item of images; let i = index" class="carousel-cell">
+                <img [src]= item.img [title]="item.texto" >
+               
+            </div>
+        </carousel>
+        
+    </div>
+    <div class="aboutUs-Vivero-info">
+        <div class="infoContainer">
+            <h1 class="hover-underline-animation"> {{ 'Elvivero' | translate }}</h1>
+
+        </div>
+        <p>{{ 'ElviveroTexto1' | translate }} </p>
+        <p>{{ 'ElviveroTexto2' | translate }}</p>
+        <p>{{ 'ElviveroTexto3' | translate }}</p>
+    </div>
+    
+
+</section>
+
+
+           

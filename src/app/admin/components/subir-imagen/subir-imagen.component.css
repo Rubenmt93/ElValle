@@ -1,0 +1,145 @@
+.componentcontainer{   
+    height: 100vh;
+    display: flex;        
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+    background-color: rgb(60, 110, 82);
+}
+.container{               
+    display: flex;        
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+    padding-top: 0;
+    width: 80%;
+}
+.verifyContainer{    
+    padding: 5% ;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+
+::ng-deep .mat-focused .mat-label .mat-form-field-label {    
+    color: #ffffff !important;
+}
+::ng-deep.mat-form-field-underline {
+  background-color: #ffffff !important;
+}   
+::ng-deep.mat-form-field-ripple {   
+   background-color:#ffffff !important;;
+}
+mat-label, input{
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+}
+.mat-raised-button.mat-button-disabled {
+
+    color: #cac9c9 !important;
+    background-color:#7b84b8 !important;  
+}
+      
+
+mat-form-field{
+    margin-bottom: 10px;
+    width: 100% !important;
+}
+
+.formGrid {
+    display: flex;
+    flex-direction: column;    
+    margin-bottom: 5%;
+}
+.div1 img{
+    margin-bottom: 5px;
+    width:500px;
+    height:300px;
+    border-radius:0;
+    align-self: center;
+}
+.div1,.div2, .div3 {
+    display: flex;
+    flex-direction: column; 
+}    
+@media (min-width: 700px) {
+    
+    .div1 { 
+        grid-area: 1 / 1 / 2 / 2;           
+    }
+    
+    .div2 {
+        grid-area: 1 / 2 / 2 / 3;         
+    }
+    
+    .div1,.div2 {
+        padding: 20px;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+button{
+    width: 100%;
+    margin-bottom: 1%;
+}
+span{
+    margin-top: 0.5rem;
+    align-self: center;
+    color: slategray;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: #3f51b5;
+    
+    
+}
+
+
+.file-upload{
+    
+    padding: 0 6px 0 6px;
+    margin: 6px 8px 6px 8px;
+    min-width: 88px;
+    border-radius: 3px;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration:none;
+    border: none;
+    outline: none;
+    background-color: #3f51b5 !important;
+  
+}
+.add-dialog, h1{
+    color: rgb(37, 38, 37);
+    margin: auto;
+    margin-bottom: 15px;
+}
+.add-dialog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+mat-spinner{
+    background: none;
+}
+
+
+@media (max-width: 600px){
+   
+    .div1 img{
+        margin-bottom: 5px;
+        width:90%;
+        
+        border-radius:0;
+    }
+}
+

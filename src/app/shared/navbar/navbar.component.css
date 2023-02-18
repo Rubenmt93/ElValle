@@ -1,0 +1,127 @@
+a{
+  color: white;
+  text-decoration: none;
+  margin: 20px;     
+  font-size:x-large ; 
+}
+mat-icon {
+  vertical-align: middle;
+  display: inline-block;
+  color: white;
+}
+
+.example-spacer {
+  flex: 1 1 1 auto;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #ffffff;
+}
+    
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.7s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+mat-toolbar{
+  background:none;
+  justify-content:center;
+}
+span{
+  margin-right: 10px;
+
+}
+img{
+  max-height: 30px;
+}
+.iniciospan{
+  display: flex;
+  align-items: center;
+}
+
+.bandera{
+  width: 40px;
+  height: 40px;  
+  border-radius: 50%;
+  border: 2px solid rgb(255, 255, 255);
+
+}
+.socialNetwork{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.español{
+  background-image: url(../../../assets/bandera-españa.jpg);
+  background-repeat: no-repeat;
+  -moz-background-size: 100% 100%; /*Firefox 3.6*/
+  -o-background-size: 100% 100%; /*opera*/
+  -webkit-background-size: 100% 100%; /*Safari*/
+  background-size: 100% 100%; /*estandar css3*/
+}
+.ingles{  
+  background-image: url(../../../assets/Bandera_de_Uk.png);
+  background-repeat: no-repeat;
+  -moz-background-size: 100% 100%; /*Firefox 3.6*/
+  -o-background-size: 100% 100%; /*opera*/
+  -webkit-background-size: 100% 100%; /*Safari*/
+  background-size: 100% 100%; /*estandar css3*/
+}
+::ng-deep .mat-menu-content{
+  background-color: #242424ff;
+}
+.fullWidth{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1050px) {
+  a{
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      margin: 0px;
+      font-size: x-small;  
+      
+        
+  }
+  mat-toolbar{
+    background:none;
+    justify-content:space-between;
+  }
+  img{
+    max-height: 20px;
+  }
+  .bandera{
+    width: 20px;
+    height: 20px;  
+    border: 1px solid rgb(255, 255, 255);
+  }
+}
+@media (max-width: 1350px) {
+  
+  a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 2px;
+    font-size: large;    
+   }
+   span{
+    margin-right: 10px;
+  
+  }
+}

@@ -1,0 +1,46 @@
+.maincontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.textcontainer{
+    width: 80%;
+    background-color: white;
+    border-radius: 50px;
+    padding:2%;
+    margin:auto;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+button{
+    margin: auto;
+}
+img{
+    width: 100px;
+}
+p{
+    font-size: 30px;
+    margin: auto;
+    line-height: 70px;
+}
+h1{
+    font-size: 60px;
+    margin: auto;
+    line-height: 80px;
+}
+@media (max-width:800px){
+
+    p{
+        font-size: 20px;
+        margin: auto;
+        line-height: 30px;
+    }
+    img{
+        width: 50px;
+        margin-left: 20px;
+    }
+}
+  

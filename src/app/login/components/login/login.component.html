@@ -1,0 +1,42 @@
+<div class="componentcontainer">
+    <div class="container">      
+        <div class="header">
+            <h2>Inicio sesion</h2>
+        </div>       
+        <form   [formGroup]="loginForm"
+                autocomplete="off"
+                (ngSubmit)="login()">    
+            <mat-form-field class="example-full-width">
+                <mat-label> 
+                    <mat-icon matPrefix> email </mat-icon> 
+                    Correo electrónico
+                </mat-label>
+                <input type="email"                 
+                       matInput
+                       formControlName='email'                        
+                       placeholder="example@example.com">         
+                <mat-error *ngIf="validezCampo('email')"><mat-icon>help</mat-icon>Introducir un correo valido</mat-error>
+            </mat-form-field>
+
+            <mat-form-field class="example-full-width">                
+                <mat-label> 
+                    <mat-icon matPrefix> lock </mat-icon> 
+                    Contraseña
+                </mat-label>
+                <input  [type]="showPasswd ? 'password' : 'text'" 
+                        formControlName='password' 
+                        matInput> 
+                <mat-icon matSuffix (click)="showPasswd = !showPasswd">{{showPasswd ? 'visibility_off' : 'visibility'}}</mat-icon>        
+                <mat-error *ngIf="validezCampo('password')"><mat-icon>help</mat-icon>Campo requerido</mat-error>
+            </mat-form-field>
+               
+            <button mat-raised-button 
+                    color="primary"
+                    type="submit"
+                    [disabled]="loginForm.invalid">
+                        Acceder
+            </button>
+            
+        </form>
+    </div>    
+</div>
