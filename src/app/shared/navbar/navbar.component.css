@@ -82,9 +82,10 @@ img{
   -webkit-background-size: 100% 100%; /*Safari*/
   background-size: 100% 100%; /*estandar css3*/
 }
-::ng-deep .mat-menu-content{
+::ng-deep .mobileMenu{
   background-color: #242424ff;
 }
+
 .fullWidth{
   display: flex;
   justify-content: center;
