@@ -1,0 +1,123 @@
+{
+    "Inicio":"Inicio",
+    "Bonsais":"Bonsais",
+    "Productos":"Productos",
+    "Servicios":"Servicios",
+    
+    "Inicio1":"Centro de bonsaís",
+    "Inicio2":"Todo para el cuidado de los bonsai",
+    "¿Quienes somos?":"¿Quienes somos?",
+    "¿Quienes somos?Texto1":"Viveros y Centro de Bonsái El Valle nace en 1990 como una empresa dedicada exclusivamente al arte del bonsái en todas sus facetas",
+    "¿Quienes somos?Texto2":"Viveros y Centro de Bonsái El Valle es la primera empresa del Archipiélago Canario dedicada a los bonsáis. Su experiencia, calidad de sus productos y seriedad en el trabajo le han valido el reconocimiento de aficionados y profesionales.",        
+    "¿Donde estamos?":"¿Donde estamos?",
+    "¿Donde estamos?Texto1":"A unos pocos minutos de la Villa de Teror",
+    "¿Donde estamos?Texto2":"Viveros y Centro de Bonsái El Valle está enclavado en la carretera GC-21, p.k. 15+780, margen derecho, que une los municipios de Teror y Valleseco.",
+    "¿Donde estamos?Texto3":"En el lugar conocido como Vuelta de Los Naranjos. Situado exactamente frente al camino real Cuesta de los Estanques.",
+    "Horario":"Horario",
+    "Jueves":"Jueves",
+    "Viernes":"Viernes",
+    "Sabado":"Sabado", 
+    "Contactanos":"Contactanos",   
+    "Telefono":"Teléfono",
+    "mail":"Correo electrónico",
+
+    "Bonsais de Exterior":"Bonsais de Exterior",
+    "Bonsais de Exterior Texto1":"Llamamos bonsái de exterior a aquellos árboles que por sus necesidades de luz y temperatura no se pueden cultivar en el interior. Aún así, se ha de controlar la luz con una malla de sombreado para evitar que el exceso de sol pueda perjudicar su salud. La mayor parte de los bonsáis de flor y fruta necesitan estar en el exterior para poder realizar su función reproductora (flor y fruto).",
+    "Bonsais de Exterior Texto2":"La mayor parte de los bonsáis de flor y fruta necesitan estar en el exterior para poder realizar su función reproductora (flor y fruto).",
+    "Bonsais de Exterior Texto3":"Los bonsaís de exterior pueden ser de zona fria o templadas",
+    "Bonsais de Interior":"Bonsais de Interior",
+    "Bonsais de Interior Texto":"Todos los árboles, como puede suponerse, son de exterior. Sin embargo, llamamos Bonsái de interior a aquellos que permiten su cultivo con unas exigencias menores de luz y una mayor temperatura que la que recibiría en el exterior. Aún así, es conveniente que los árboles de interior no estén a más de 50 centímetros aproximadamente, de la luz de una ventana con cristal transparente.",
+
+    "Macetas":"Macetas",   
+    "MacetasTexto":"La maceta de bonsái debe armonizar con el árbol que va a contener. Una buena maceta es capaz de resaltar un árbol medio o arruinar la imagen de un árbol de perfectas características. En nuestro centro puede encontrar una gran variedad de macetas donde plantar su bonsái:",
+    "Tokoname":"Macetas de entrenamiento de Tokoname",
+    "Macetas chinas de Yixing esmaltadas":"Macetas chinas de Yixing esmaltadas",
+    "Macetas chinas de Yixing sin esmaltar":"Macetas chinas de Yixing sin esmaltar",
+    "Macetas japonesas de Seto":"Macetas japonesas de Seto",
+    "Macetas japonesas Houtoku pots":"Macetas japonesas Houtoku pots",
+    "Macetas japonesas Yokkaichi":"Macetas japonesas Yokkaichi",
+    "Macetas japonesas de porcelana esmaltada":"Macetas japonesas de porcelana esmaltada", 
+
+    "Herramientas":"Herramientas",
+    "HerramientasTexto":"El cuidado de nuestros bonsáis requiere la aplicación de unas técnicas para las que, tras miles de años de tradición, se han construido unas herramientas específicas que, por su corte o su capacidad de sujeción, son casi imprescindibles.",
+    "HerramientaOferta":"En nuestro centro puede encontrar entre otros:",
+    "Tijeras de aros grandes":"Tijeras de aros grandes",
+    "Tijeras pinzadoras":"Tijeras pinzadoras",
+    "Podadora cóncava recta (Kuikiri)":"Podadora cóncava recta (Kuikiri)",
+    "Podadora cóncava curva (Cobukiri)":"Podadora cóncava curva (Cobukiri)",
+    "Podadora recta de corte curvo":"Podadora recta de corte curvo",   
+    "Pinzas":"Pinzas",
+    "Corta alambres":"Corta alambres",
+
+    "Accesorios":"Accesorios",
+    "AccesoriosTexto":"Además de las herramientas, disponemos de accesorios diseñados especialmente para el cuidado del bonsái que le permitirán disfrutar con sus árboles haciendo sus propios trabajos.",
+    "AccesorioOferta":"En nuestro centro puede encontrar entre otros:",
+    "Alambres":"Alambres de aluminio de 0,8mm a 6mm",
+    "Rejillas":"Rejillas",
+    "Palillos":"Palillos y escobillas",
+    "Tornos":"Tornos",
+    "Cedazos":"Cedazos",
+    "Regaderas":"Regaderas",
+    "Vaporizadores":"Vaporizadores ",
+
+    "Abonos":"Abonos",
+    "AbonosTexto1":"Disponemos de diferentes tipos de abonos.",
+    "Abonos orgánicos sólidos:":"Abonos orgánicos sólidos:",    
+    "Bio Gold":"Bio Gold",
+    "Hiryo Gold":"Hiryo Gold",
+    "Hanagokoro":"Hanagokoro",
+    "Abono orgánicos liquidos:":"Abono orgánicos liquidos:",  
+    "Bachumus":"Bachumus",
+    "Abono químico para prebonsái:":"Abono químico para prebonsái:",
+    "Arcoíris":"Arcoíris",
+
+    "Fitosanitario":"Fitosanitario",
+    "FitosanitarioTexto":"Actualmente trabajamos con productos biológicos y no tóxicos. Como insecticidas tenemos la gama Bioleat compuesto por sales potásicas. También disponemos del Ain, insecticida ovicida compuesto por extracto de azadiracta índica (neem). Fungicidas químicos, como cobre, y orgánicos como el propolis ( solución hidroalcohólica de propoléo, producto elaborado por las abejas con propiedades fúngicas y bactericidas).",
+    
+    "Tierras":"Tierras",
+    "TierrasTexto":"Disponemos de todo tipo de tierras al servicio de sus árboles:",
+    "Akadama":"Las mejores sustratos japoneses para bonsái, como Akadama, sustrato de ph neutro apta para la mayoría de los Bonsais. La tenemos en diferentes tamaños de granos y una mezcla de akadama y picón lista para usar.",
+    "Kiryuzuna":"Kiryuzuna, sustrato de ph ligeralmente ácido. Se utiliza sólo o mezclado con akadama. Ideal para pinos.",
+    "Kanuma":"Kanuma, sustrato de ph ácido. Se utiliza puro para las azaleas o mexclado con akadama para plantas que no necesitan tanta acidez, como las camelias, ericas, etc.",
+    "Sustrato de entrenamiento":"Sustrato de entrenamiento, tierra para árboles en formación. Contiene picón ( 5-10 mm.), arcilla y turba.",
+    
+    "Vitaminas":"Vitaminas",
+    "VitaminasTexto":"Para el cuidado de nuestros arboles disponemos de Super thrive: Vitamina B+ hormonas, de alta calidad.",
+    
+    
+    
+    "Clinica":"Clinica",
+    "ClinicaTexto":"Recuperamos sus árboles en la medida de nuestras posibilidades. También realizamos las operaciones de transplante, podas, remodelados o cualquier otro servicio que su bonsái necesite.",
+    "Escuela":"Escuela",
+    "EscuelaTexto1":"La Escuela de Bonsai El Valle es una parte importante dentro de los servicios que prestamos a quienes se acercan al Centro. Los cursos se iniciaron en el año 1990 para siete alumnos pioneros del bonsái en Canarias y, poco a poco, ya son cientos de personas las que han aprendido el tratamiento de los árboles en nuestras instalaciones a lo largo de estos años.",
+    "EscuelaTexto2":"En la actualidad realizamos cursos anuales de octubre a junio para diferentes niveles y durante dos horas semanales, de 6 a 8 de la tarde. Los alumnos gozan de la posibilidad de compartir sus experiencias con otros alumnos y los profesores del Centro durante las clases",
+    "EscuelaTexto3":"Impartimos hasta cuatro niveles de dificultad en el aprendizaje, que continúan aumentando año tras año",
+    "EscuelaPrimero":"En el primer nivel o iniciación, enseñamos a los alumnos el uso de las herramientas necesarias y las técnicas básicas para la formación de un Bonsai, así como el inicio de las técnicas de cultivo y modelado, podas de ramas y raíces, formación de estructuras, alambrado, etcétera.",
+    "EscuelaSegundo":"En el segundo y tercer nivel de perfeccionamiento vemos técnicas avanzadas de cultivo y modelado como injertos, modelado con tensores, enrafiados y formación y tratamiento de Jin y Sharis.",
+    "EscuelaCuarto":"A partir del cuarto nivel de perfeccionamiento estudiamos técnicas de refinado, modelado o remodelado de bonsái adultos, adosados a tronco muertos (Tanuki), presentación, etcétera.",
+    
+    "Asesoramiento":"Asesoramiento",
+    "AsesoramientoTexto":"Le asesoramos sobre el cultivo, diseño o modelado de sus bonsái, así como sobre la bibliografía existente en el mercado",
+
+    "Guarderia":"Guarderia",
+    "GuarderiaTexto":"Cuidamos de sus árboles mientras usted disfruta de sus vacaciones o si necesitan reposo invernal en zona fría.",
+    
+    "Talleres":"Talleres",
+    "TalleresTexto":"Ofrecemos la posibilidad de venir a nuestras instalaciones a trabajar sus propios árboles bajo nuestro asesoramiento. Este servicio está disponible los viernes y sábados de 9 a 13 horas previa petición de hora.",
+    
+    "Galeria":"Galeria",
+    "VerMas":"Ver más",
+
+    "SobreNosotros":"Sobre Nosotoros",
+    "Elvivero":"El Vivero",
+    "ElviveroTexto1":"Vivero y Centro de Bonsái El Valle nace en 1990 como una empresa dedicada exclusivamente al arte del bonsái en todas sus facetas para cubrir un vacío en el mercado. Se creo como un centro donde aunar varias actividades relacionadas con este arte milenario ofreciendo además del servicio de venta otros servicios tales como clínica o guardería e impartiendo desde el primer momento cursos para todas aquellas personas interesadas en conocer este arte.",
+    "ElviveroTexto2":"Desde el 2008 estamos instalados en el municipio de Teror, donde en un espacio de  más de 1000 metros cuadrados podrás disfrutar de cientos de bonsáis y prebonsáis. En nuestro centro disponemos de un aula donde realizamos nuestros cursos y donde podrás trabajar cómodamente tus bonsáis si te animas a asistir a algún taller de trabajo. Disponemos de una zona de invernadero para asegurar un clima cálido que favorezca la recuperación de los árboles después de realizar un trasplante o cuando el árbol lo necesite.",
+    "ElviveroTexto3":"Además existen zonas de exposición de las herramientas y accesorios que  te ayudarán a trabajar con tu árbol y de macetas donde encontraras la adecuada para tu bonsái. Más de 30 años de experiencia nos avalan.",
+
+    "JuanMontes":"Juan Montes",
+    "JuanMontesTexto1":"Su director, Juan José Montes Hernández, ha sido el precursor del bonsái en Canarias. De formación autodidacta, Montes volcó sus conocimientos en bonsái tras cursar estudios en la Escuela de Artes Aplicadas y Oficios Artísticos, la Escuela de Ingenieros Técnicos Agrícolas de la Universidad de La Laguna y la Escuela de Ingeniería Técnica en Topografía de la Universidad de Las Palmas",
+    "JuanMontesTexto2":"Ha realizado cursos de formación, destacando su formación en el vivero Taisho-en, en Shizuoka, Japón, por el oyakata Sr. Nobuichi Urushibata.",
+    "JuanMontesTexto3":"Ha colaborado en las revistas Bonsái Autóctono y Bonsái Actual y ha realizado numerosas exposiciones"
+}
+
+
