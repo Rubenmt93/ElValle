@@ -13,7 +13,9 @@ interface Item{
 export class ViveroComponent implements OnInit {
   images:CarrosuelItem[]=[]
   constructor( private carrosuelService:CarrosuelService) { 
-    this.carrosuelService.getCarrousel('vivero').subscribe(result=>{      
+    this.carrosuelService.getCarrousel('vivero').subscribe(result=>{
+      console.log(result);
+            
       this.images=result as CarrosuelItem[]      
     })     
   }
