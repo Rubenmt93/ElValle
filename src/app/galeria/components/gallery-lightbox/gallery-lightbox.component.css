@@ -6,11 +6,7 @@
     padding-top: 0;
 }
 .gallery{
-    /* max-width: 100%;
-    display: grid;       
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-    margin: 20px; */
+   
     display: grid;
     gap: 1rem;
     grid-auto-flow: dense;
@@ -64,7 +60,7 @@ span{
 }
 mat-icon{
     color: whitesmoke;
-    font-size: 50px;
+    font-size: 20px;
 }
 
 .closeIcon{
@@ -76,12 +72,12 @@ mat-icon{
 }
 
 mat-icon:hover{   
-    font-size: 60px;
+    font-size: 30px;
 }
 
-.pre{
+/* .pre{
     margin-right: 15px;
-}
+} */
 @media (max-width:800px){
 
     
