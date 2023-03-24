@@ -17,6 +17,7 @@ carousel{
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    min-height: 400px;
 }
 .infoCarrousel{
     width: 100%;
@@ -37,11 +38,14 @@ carousel{
     display: flex;
     flex-direction: column;
     padding: 30px;
+    justify-content: center;
 }
 h1{
     margin: auto;
     font-size: 40px;
     margin-bottom: 30px; 
+    display: flex;
+    vertical-align: middle;
 }
 p{
     width: 100%;

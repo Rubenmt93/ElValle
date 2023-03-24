@@ -1,15 +1,12 @@
 .exterior{
     width: 100%; 
-    margin: auto; 
-    
+    margin: auto;     
     display: flex;
     flex-direction: column;
     justify-content: center;    
 }
 
-carousel{ 
- margin: auto;   
-}
+
 .carrousel-container{
     background-color: rgb(34, 142, 47); 
    display: grid;
@@ -17,10 +14,10 @@ carousel{
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    min-height: 450px;
+
 }
-.infoCarrousel{
-    width: 100%;
-}
+
 .imgInterior{
     grid-area: 1 / 3 / 2 / 4; ;     
     display: inline-block;
@@ -40,14 +37,13 @@ carousel{
 }
 h1{
     margin: auto;
+    margin-top:20px ;
     font-size: 40px;
     margin-bottom: 30px;
 }
 p{
     width: 100%;
-    margin: auto;
-    font-size: 150%;
-    margin-bottom: 60px;
+    font-size: 150%;  
     color: white;
 }
 
