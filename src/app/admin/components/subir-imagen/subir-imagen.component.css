@@ -123,11 +123,18 @@ a{
     color: rgb(37, 38, 37);
     margin: auto;
     margin-bottom: 15px;
+    font-size: 40px;
 }
 .add-dialog{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 500px;
+    overflow: hidden;
+   
+}
+.add-dialog-container{
+    padding: 5px;
 }
 mat-spinner{
     background: none;

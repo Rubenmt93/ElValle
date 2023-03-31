@@ -9,7 +9,7 @@
     width: 80%;
     background-color: white;
     border-radius: 50px;
-    padding:2%;
+    padding:1%;
     margin:auto;
     margin-bottom: 20px;
     display: flex;
@@ -22,7 +22,7 @@ img{
     width: 100px;
 }
 p{
-    font-size: 30px;
+    font-size: 20px;
     margin: auto;
     line-height: 70px;
 }

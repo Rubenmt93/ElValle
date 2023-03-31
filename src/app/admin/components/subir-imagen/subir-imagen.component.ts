@@ -35,17 +35,19 @@ export class SubirImagenComponent implements OnInit {
   }
   uploadImage(){
     var dialogRefSpinner =this.dialog.open(SpinnerDialog);
-    var file=this.imgURL
-    var texto:string= this.ImageForm.controls['texto'].value
-    this.galeryService.createImage(texto,file).then( result => {   
-       dialogRefSpinner.close()                                                       
-      var dialogRef =this.dialog.open(AddImageDialog); 
-      dialogRef.afterClosed().subscribe(result => {
-        this.ImageForm.reset()
-        this.imgURL="./assets/imagePlaceholder.png"
-      });    
-    })
-
+    // var file=this.imgURL
+    // var texto:string= this.ImageForm.controls['texto'].value
+    // this.galeryService.createImage(texto,file).then( result => {   
+    //    dialogRefSpinner.close()                                                       
+    //   var dialogRef =this.dialog.open(AddImageDialog); 
+    //   dialogRef.afterClosed().subscribe(result => {
+    //     this.ImageForm.reset()
+    //     this.imgURL="./assets/imagePlaceholder.png"
+    //   });    
+    // })
+    dialogRefSpinner.close()   
+    var dialogRef =this.dialog.open(AddImageDialog); 
+   
   }
  
   
