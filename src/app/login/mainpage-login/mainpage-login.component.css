@@ -1,5 +1,4 @@
 section{
-    height: 100vh;
     display: flex;
     align-items: center;
      justify-content: center;
@@ -10,16 +9,24 @@ section{
     background: radial-gradient(circle, rgba(255,255,255,1) 10%, rgba(255,255,255,0) 50%);
 }
 .loginContainer{
-    width: 100%;
-    padding: 2%;
+    width: 100%;    
     display: flex;
     padding-left: 10%;
     padding-right: 10%;
     flex-direction: row;
-    background-color: rgb(5, 122, 83);
+    background-color: rgb(9, 94, 65);
     justify-content: space-around;
 }
+img{
+    background-position:center;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 50%);
+    margin:auto;
+    max-width: 600px;
+    margin-left: 50px;
 
+    
+}
 @media (max-width: 750px){
     .imgContainer{
         display: none;
