@@ -7,11 +7,7 @@
     padding-top: 0;
 }
 .gallery{
-    /* max-width: 100%;
-    display: grid;       
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-    margin: 20px; */
+    
     display: grid;
     gap: 1rem;
     grid-auto-flow: dense;
@@ -53,7 +49,7 @@ img{
 }
 
 .spanAndClose{
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     min-width: 50%;
     display: flex;
     justify-content: space-between;
@@ -61,7 +57,7 @@ img{
 
 mat-icon{
     color: whitesmoke;
-    font-size: 50px;
+    font-size: 20px;
 }
 
 .closeIcon{
@@ -72,7 +68,7 @@ mat-icon{
     
 }
 mat-icon:hover{   
-    font-size: 60px;
+    font-size: 30px;
 }
 .pre{
     margin-right: 15px;
@@ -84,7 +80,7 @@ input{
     margin: auto;
 }
 .ImageInfo, .formFrid, mat-form-field{
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -114,9 +110,8 @@ span{
     font-size: x-large;
     margin-bottom: 20px;
 }
-.pre{
-    margin-right: 15px;
-}
+
+
 
 
 @media (max-width:800px){
