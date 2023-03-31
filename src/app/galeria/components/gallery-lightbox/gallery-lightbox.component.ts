@@ -1,4 +1,4 @@
-import { Component, HostListener, Input, OnInit, SimpleChanges } from '@angular/core';
+import { Component, EventEmitter, HostListener, Input, OnInit, Output, SimpleChanges } from '@angular/core';
 import { Image } from '../../../interfaces/image';
 interface Item {
   imageSrc:string;
@@ -12,7 +12,9 @@ interface Item {
 export class GalleryLightboxComponent implements OnInit {
   @Input() galleryData: Image[] = []
   @Input() showCount = false
+  @Output()  load: EventEmitter<any> = new EventEmitter();
   showMask:boolean= false
+  verMas:boolean=true
   currentLightboxImage: Image = this.galleryData[0]
   currentIndex=0
   controls:boolean = false
@@ -44,9 +46,7 @@ export class GalleryLightboxComponent implements OnInit {
   }
 
   ngOnChanges(changes: SimpleChanges): void {
-    //Called before any other lifecycle hook. Use it to inject dependencies, but avoid any serious work here.
-    //Add '${implements OnChanges}' to the class.
-    console.log('HE CAMBIADO');
+    
     this.totalImageCount= this.galleryData.length
 
   }
@@ -80,9 +80,14 @@ export class GalleryLightboxComponent implements OnInit {
     if(this.currentIndex === 0){
       this.currentIndex=this.totalImageCount-1
       this.currentLightboxImage = this.galleryData[this.totalImageCount-1]
-     }else{
+    }else{
       this.currentIndex--
       this.currentLightboxImage = this.galleryData[this.currentIndex]
-     }
+      
     }
   }
+  vermas(){
+    this.verMas = false
+    this.load.emit(true)
+  }
+}

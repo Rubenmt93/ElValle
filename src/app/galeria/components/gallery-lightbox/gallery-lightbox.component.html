@@ -5,6 +5,13 @@
             <img (click)="onPreviewImage(i)" [src]="item.img" [alt]="item.description">
         </div>
     </div>
+    
+    <button mat-button
+        (click)="vermas()"
+        *ngIf="!showMask && verMas">
+        {{ 'VerMas' | translate }}
+    </button>
+    
     <div *ngIf="showMask" class="lightbox">
         <div class="spanAndClose">
             <span  class="count">{{this.currentIndex +1}}/{{totalImageCount}}</span>       

@@ -4,13 +4,9 @@
 <div class="maincontainer">
 
     <h1 class="hover-underline-animation">  {{ 'Galeria' | translate }}</h1>
-    <app-gallery-lightbox [galleryData]="data"></app-gallery-lightbox>
+    <app-gallery-lightbox [galleryData]="data" (load)="getAllImages()"></app-gallery-lightbox>
     
-    <button mat-button
-            (click)="getAllImages()"
-            *ngIf="verMas">
-            {{ 'VerMas' | translate }}
-    </button>
+   
  </div> 
 
  

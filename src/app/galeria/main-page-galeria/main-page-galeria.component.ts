@@ -11,7 +11,7 @@ import { GaleryService } from '../../services/galery.service';
 })
 export class MainPageGaleriaComponent implements OnInit {
  
-  verMas:boolean=true
+  
   data:Image[]=[
 
   ]
@@ -31,7 +31,7 @@ export class MainPageGaleriaComponent implements OnInit {
   }
 
   getAllImages(){
-    this.verMas=false
+    
     this.data=[]
     this.galleryService.getImages().subscribe(result => {
       this.data  =result as Image[]
