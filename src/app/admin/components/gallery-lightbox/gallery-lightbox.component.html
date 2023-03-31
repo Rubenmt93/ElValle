@@ -6,7 +6,8 @@
 
             <button mat-button
                     color="warn"
-                    (click)="eliminarImagen(item.eventId)">
+                    (click)="eliminarImagen(item.eventId)"
+                    *ngIf="!showMask">
                 Eliminar
             </button>
         </div>
