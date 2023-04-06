@@ -2,7 +2,6 @@ section{
     background-color: rgb(147, 200, 71);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     padding: 5%;
     height: 100%;
 }
