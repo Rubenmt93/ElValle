@@ -35,12 +35,12 @@
  .tittlecontainer{
     display: flex;
     justify-content: center;
-    margin-bottom:30px ;
+    margin-bottom:10px ;
 }
 h1{
     text-align: center;    
-    font-size: 60px; 
-    margin-top:20px;
+    font-size: 50px; 
+    
     
 } 
 .info-grid { 
@@ -48,13 +48,15 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 50px;
+    margin: 30px;
+    margin-top: 0;
     
 }
 p{
     font-size: 150%;
     color: white;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+    margin-top: 0;
 }
 img{    
     width:100%;    
