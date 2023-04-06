@@ -54,6 +54,14 @@ p{
     margin-bottom: 30px;
     color: white;
 }
+.lista{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+}
+.lista ul{
+    list-style-type: none;
+}
 
 @media (max-width: 900px){
 

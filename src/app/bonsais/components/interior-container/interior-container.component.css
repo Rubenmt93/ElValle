@@ -46,7 +46,9 @@ p{
     font-size: 150%;  
     color: white;
 }
-
+ul{
+    list-style-type: none;
+}
 @media (max-width: 900px){
 
     .carrousel-container{
