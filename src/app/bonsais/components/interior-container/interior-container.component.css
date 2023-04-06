@@ -10,7 +10,7 @@
 .carrousel-container{
     background-color: rgb(34, 142, 47); 
    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
@@ -19,7 +19,7 @@
 }
 
 .imgInterior{
-    grid-area: 1 / 3 / 2 / 4; ;     
+    grid-area: 1 / 3 / 2 / 5; ;     
     display: inline-block;
     height: 100%;
     background-image: url("https://firebasestorage.googleapis.com/v0/b/centrobonsaielvalle-cff2a.appspot.com/o/FotosFijas%2Fbonsai-interior.jpg?alt=media&token=");
@@ -39,16 +39,19 @@ h1{
     margin: auto;
     margin-top:20px ;
     font-size: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 p{
     width: 100%;
-    font-size: 150%;  
     color: white;
 }
 ul{
     list-style-type: none;
 }
+li{
+    font-size: medium;
+}
+
 @media (max-width: 900px){
 
     .carrousel-container{
