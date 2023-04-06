@@ -1,14 +1,14 @@
  
  .maincontainer{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;    
     background-color: rgb(29, 169, 87);
 }
  .info-fotoFullWidth { 
-    grid-area: 1 / 1 / 2 / 2;     
+    grid-area: 1 / 1 / 2 / 4;     
     display: inline-block;
     height: 100%;
     background-image: url("https://firebasestorage.googleapis.com/v0/b/centrobonsaielvalle-cff2a.appspot.com/o/FotosFijas%2Fproductos-macetas.jpg?alt=media&token=");
@@ -30,7 +30,7 @@
     background-size: 100% 100%; /*estandar css3*/
 }
 .box{    
-    grid-area: 1 / 2 / 2 / 4;
+    grid-area: 1 / 4 / 2 / 8;
 }
  .tittlecontainer{
     display: flex;
@@ -44,7 +44,7 @@ h1{
     
 } 
 .info-grid { 
-    grid-area: 1 / 1 / 2 / 3; 
+    grid-area: 1 / 4 / 2 / 8; 
     display: flex;
     flex-direction: column;
     justify-content: center;
