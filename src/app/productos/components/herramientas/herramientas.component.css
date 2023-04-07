@@ -12,7 +12,7 @@ section{
 }
 .img{
     width: 100%;
-    height: 200px;
+    height: 300px;
     background-image: url("https://firebasestorage.googleapis.com/v0/b/centrobonsaielvalle-cff2a.appspot.com/o/FotosFijas%2Fproductos-herramientas.jpg?alt=media&token=");
     background-repeat: no-repeat;
     -moz-background-size: 100% 100%; /*Firefox 3.6*/
