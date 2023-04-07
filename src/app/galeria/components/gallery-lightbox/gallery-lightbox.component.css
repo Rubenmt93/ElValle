@@ -8,28 +8,36 @@
     flex-direction: column;
     justify-content: center;
 }
-.gallery{
-   
-    display: grid;
-    gap: 1rem;
-    grid-auto-flow: dense;
-    grid-auto-rows: 22rem;
-    grid-template-columns: repeat(auto-fill, minmax(20rem,1fr));
-}
-.gallery-img{ 
-  min-width: 100%;
-  display: flex;
-  justify-content: center;
-   
-}
-img{
-    max-width: 100%;
-    margin: 5px;
-   
-}
-.imageViewContainer{
-    display: flex;
-}
+            .gallery{
+            
+                display: grid;
+                gap: 1rem;
+                grid-auto-flow: dense;
+                grid-auto-rows: 22rem;
+                grid-template-columns: repeat(auto-fill, minmax(20rem,1fr));
+            }
+            .gallery-img{ 
+            min-width: 100%;
+            display: flex;
+            justify-content: center;
+            
+            }
+            img{ 
+                max-width: 100%;
+                margin: 5px;
+            
+            }
+            
+            button{
+                background-color: rgb(51, 224, 71);
+                color: white;
+                width: 20%;
+                margin: auto;
+                margin-bottom: 60px;
+                margin-top: 30px;
+            
+            }
+
 .lightbox{
     display: flex;
     flex-direction: column;
@@ -44,30 +52,39 @@ img{
     
 }
 
-.imageLightbox{
-    max-width: 600px;
-    max-height: 600px;
-}
+        .spanAndClose{
+            margin-bottom: 20px;
+            min-width: 50%;
+            display: flex;
+            justify-content: space-between;
+        }
+        span{
+            color: whitesmoke;
+            font-size: x-large;
+            margin-bottom: 20px;
+        
+        }
+        .imageLightbox{
+            /* max-width:700px; */
+            object-fit: cover;
 
-.spanAndClose{
-    margin-bottom: 20px;
-    min-width: 50%;
+        }
+
+
+
+        mat-icon{
+            color: whitesmoke;
+            font-size: 20px;
+        }
+
+        .closeIcon{
+            justify-self: end;
+        }
+.imageViewContainer{    
     display: flex;
-    justify-content: space-between;
-}
-span{
-    color: whitesmoke;
-    font-size: x-large;
-    margin-bottom: 20px;
-   
-}
-mat-icon{
-    color: whitesmoke;
-    font-size: 20px;
-}
-
-.closeIcon{
-    justify-self: end;
+    justify-content: center;
+    vertical-align: middle;
+    width: 50%;
 }
 .moveIconContainer{
     margin: auto;  
@@ -78,15 +95,6 @@ mat-icon:hover{
     font-size: 30px;
 }
 
-button{
-    background-color: rgb(51, 224, 71);
-    color: white;
-    width: 20%;
-    margin: auto;
-    margin-bottom: 60px;
-    margin-top: 30px;
-   
-}
 
 
 @media (max-width:800px){
