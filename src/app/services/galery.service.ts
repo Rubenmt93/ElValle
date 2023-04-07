@@ -44,7 +44,7 @@ export class GaleryService {
     
   }
   get12Images(){
-    return this.firestore.collection('gallery', ref => ref.orderBy('description','asc').limit(20)).valueChanges({idField: 'eventId'})
+    return this.firestore.collection('gallery', ref => ref.orderBy('description','asc').limit(12)).valueChanges({idField: 'eventId'})
   }
   deleteImage(id:string){
     return this.firestore.collection("gallery").doc(id).delete()

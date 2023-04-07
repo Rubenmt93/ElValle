@@ -16,11 +16,7 @@ export class MainPageGaleriaComponent implements OnInit {
 
   ]
 
-  constructor( private galleryService:GaleryService){
-
-   
-
-  }
+  constructor( private galleryService:GaleryService){}
   ngOnInit(): void {
     
     
