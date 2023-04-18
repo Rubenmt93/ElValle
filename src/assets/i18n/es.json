@@ -7,7 +7,7 @@
     "Inicio1":"Centro de bonsaís",
     "Inicio2":"Todo para el cuidado de los bonsai",
     "¿Quienes somos?":"¿Quienes somos?",
-    "¿Quienes somos?Texto1":"Viveros y Centro de Bonsái El Valle nace en 1990 como una empresa dedicada exclusivamente al arte del bonsái en todas sus facetas",
+    "¿Quienes somos?Texto1":"Viveros y Centro de Bonsái El Valle nace en 1990, en el pueblo de Cardones (Arucas), como una empresa dedicada exclusivamente al arte del bonsái en todas sus facetas",
     "¿Quienes somos?Texto2":"Viveros y Centro de Bonsái El Valle es la primera empresa del Archipiélago Canario dedicada a los bonsáis. Su experiencia, calidad de sus productos y seriedad en el trabajo le han valido el reconocimiento de aficionados y profesionales.",        
     "¿Donde estamos?":"¿Donde estamos?",
     "¿Donde estamos?Texto1":"A unos pocos minutos de la Villa de Teror",
@@ -22,7 +22,7 @@
     "mail":"Correo electrónico",
 
     "Bonsais de Exterior":"Bonsais de Exterior",
-    "Bonsais de Exterior Texto1":"Llamamos bonsái de exterior a aquellos árboles que por sus necesidades de luz y temperatura no se pueden cultivar en el interior. Aún así, se ha de controlar la luz con una malla de sombreado para evitar que el exceso de sol pueda perjudicar su salud. La mayor parte de los bonsáis de flor y fruta necesitan estar en el exterior para poder realizar su función reproductora (flor y fruto).",
+    "Bonsais de Exterior Texto1":"Llamamos bonsái de exterior a aquellos árboles que por sus necesidades de luz y temperatura no se pueden cultivar en el interior. Aún así, se ha de controlar la luz con una malla de sombreado para evitar que el exceso de sol pueda perjudicar su salud.",
     "Bonsais de Exterior Texto2":"La mayor parte de los bonsáis de flor y fruta necesitan estar en el exterior para poder realizar su función reproductora (flor y fruto).",
     "Bonsais de Exterior Texto3":"Los bonsaís de exterior pueden ser de zona fria o templadas",
     "Bonsais de Interior":"Bonsais de Interior",
@@ -45,6 +45,8 @@
     "Tijeras pinzadoras":"Tijeras pinzadoras",
     "Podadora cóncava recta (Kuikiri)":"Podadora cóncava recta (Kuikiri)",
     "Podadora cóncava curva (Cobukiri)":"Podadora cóncava curva (Cobukiri)",
+    "Tenaza Jin": "Tenaza de jin",
+    "Tenaza Raiz": "Tenaza de raíz",
     "Podadora recta de corte curvo":"Podadora recta de corte curvo",   
     "Pinzas":"Pinzas",
     "Corta alambres":"Corta alambres",
@@ -69,7 +71,7 @@
     "Abono orgánicos liquidos:":"Abono orgánicos liquidos:",  
     "Bachumus":"Bachumus",
     "Abono químico para prebonsái:":"Abono químico para prebonsái:",
-    "Arcoíris":"Arcoíris",
+    "Arcoíris":"Yaramira complex npk 112-11-28",
 
     "Fitosanitario":"Fitosanitario",
     "FitosanitarioTexto":"Actualmente trabajamos con productos biológicos y no tóxicos. Como insecticidas tenemos la gama Bioleat compuesto por sales potásicas. También disponemos del Ain, insecticida ovicida compuesto por extracto de azadiracta índica (neem). Fungicidas químicos, como cobre, y orgánicos como el propolis ( solución hidroalcohólica de propoléo, producto elaborado por las abejas con propiedades fúngicas y bactericidas).",
@@ -78,7 +80,7 @@
     "TierrasTexto":"Disponemos de todo tipo de tierras al servicio de sus árboles:",
     "Akadama":"Las mejores sustratos japoneses para bonsái, como Akadama, sustrato de ph neutro apta para la mayoría de los Bonsais. La tenemos en diferentes tamaños de granos y una mezcla de akadama y picón lista para usar.",
     "Kiryuzuna":"Kiryuzuna, sustrato de ph ligeralmente ácido. Se utiliza sólo o mezclado con akadama. Ideal para pinos.",
-    "Kanuma":"Kanuma, sustrato de ph ácido. Se utiliza puro para las azaleas o mexclado con akadama para plantas que no necesitan tanta acidez, como las camelias, ericas, etc.",
+    "Kanuma":"Kanuma, sustrato de ph ácido. Se utiliza puro para las azaleas o mezclado con akadama para plantas que no necesitan tanta acidez, como las camelias, ericas, etc.",
     "Sustrato de entrenamiento":"Sustrato de entrenamiento, tierra para árboles en formación. Contiene picón ( 5-10 mm.), arcilla y turba.",
     
     "Vitaminas":"Vitaminas",
@@ -90,7 +92,7 @@
     "ClinicaTexto":"Recuperamos sus árboles en la medida de nuestras posibilidades. También realizamos las operaciones de transplante, podas, remodelados o cualquier otro servicio que su bonsái necesite.",
     "Escuela":"Escuela",
     "EscuelaTexto1":"La Escuela de Bonsai El Valle es una parte importante dentro de los servicios que prestamos a quienes se acercan al Centro. Los cursos se iniciaron en el año 1990 para siete alumnos pioneros del bonsái en Canarias y, poco a poco, ya son cientos de personas las que han aprendido el tratamiento de los árboles en nuestras instalaciones a lo largo de estos años.",
-    "EscuelaTexto2":"En la actualidad realizamos cursos anuales de octubre a junio para diferentes niveles y durante dos horas semanales, de 6 a 8 de la tarde. Los alumnos gozan de la posibilidad de compartir sus experiencias con otros alumnos y los profesores del Centro durante las clases",
+    "EscuelaTexto2":"En la actualidad realizamos cursos anuales de octubre a junio para diferentes niveles, durante dos horas semanales, de 6 a 8 de la tarde. Los alumnos gozan de la posibilidad de compartir sus experiencias con otros alumnos y los profesores del Centro durante las clases",
     "EscuelaTexto3":"Impartimos hasta cuatro niveles de dificultad en el aprendizaje, que continúan aumentando año tras año",
     "EscuelaPrimero":"En el primer nivel o iniciación, enseñamos a los alumnos el uso de las herramientas necesarias y las técnicas básicas para la formación de un Bonsai, así como el inicio de las técnicas de cultivo y modelado, podas de ramas y raíces, formación de estructuras, alambrado, etcétera.",
     "EscuelaSegundo":"En el segundo y tercer nivel de perfeccionamiento vemos técnicas avanzadas de cultivo y modelado como injertos, modelado con tensores, enrafiados y formación y tratamiento de Jin y Sharis.",
@@ -110,7 +112,7 @@
 
     "SobreNosotros":"Sobre Nosotoros",
     "Elvivero":"El Vivero",
-    "ElviveroTexto1":"Vivero y Centro de Bonsái El Valle nace en 1990 como una empresa dedicada exclusivamente al arte del bonsái en todas sus facetas para cubrir un vacío en el mercado. Se creo como un centro donde aunar varias actividades relacionadas con este arte milenario ofreciendo además del servicio de venta otros servicios tales como clínica o guardería e impartiendo desde el primer momento cursos para todas aquellas personas interesadas en conocer este arte.",
+    "ElviveroTexto1":"Vivero y Centro de Bonsái El Valle nace en 1990, en el pueblo de Cardones (Arucas), como una empresa dedicada exclusivamente al arte del bonsái en todas sus facetas para cubrir un vacío en el mercado. Se creo como un centro donde aunar varias actividades relacionadas con este arte milenario ofreciendo además del servicio de venta otros servicios tales como clínica o guardería e impartiendo desde el primer momento cursos para todas aquellas personas interesadas en conocer este arte.",
     "ElviveroTexto2":"Desde el 2008 estamos instalados en el municipio de Teror, donde en un espacio de  más de 1000 metros cuadrados podrás disfrutar de cientos de bonsáis y prebonsáis. En nuestro centro disponemos de un aula donde realizamos nuestros cursos y donde podrás trabajar cómodamente tus bonsáis si te animas a asistir a algún taller de trabajo. Disponemos de una zona de invernadero para asegurar un clima cálido que favorezca la recuperación de los árboles después de realizar un trasplante o cuando el árbol lo necesite.",
     "ElviveroTexto3":"Además existen zonas de exposición de las herramientas y accesorios que  te ayudarán a trabajar con tu árbol y de macetas donde encontraras la adecuada para tu bonsái. Más de 30 años de experiencia nos avalan.",
 
