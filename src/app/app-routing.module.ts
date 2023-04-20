@@ -18,7 +18,7 @@ import { SubirImagenComponent } from './admin/components/subir-imagen/subir-imag
 const routes: Routes = [
    
   {
-    path: 'inicio',
+    path: '',
     component: MainPageComponent
   },
   {
@@ -70,7 +70,7 @@ const routes: Routes = [
  
   {
     path:"**",
-    redirectTo:"inicio"
+    redirectTo:""
     
   }
 ]
